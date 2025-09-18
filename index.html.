@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkibidiTech Games</title>
+    <style>
+        body { 
+            font-family: Arial, sans-serif; 
+            text-align: center; 
+            background-color: #f0f0f0; 
+        }
+        h1 { color: #333; }
+        h2 { color: #555; }
+        iframe {
+            border: none;
+            margin: 20px 0;
+            width: 80%;
+            height: 500px;
+        }
+        a { text-decoration: none; color: #0066cc; }
+        a:hover { text-decoration: underline; }
+    </style>
+</head>
+<body>
+    <h1>Welcome to SkibidiTech Games!</h1>
+    <p>Play your favorite online games directly on the site.</p>
+
+    <!-- Example of embedded games -->
+    <h2>2048</h2>
+    <iframe src="https://play2048.co/" allowfullscreen></iframe>
+
+    <h2>Snake</h2>
+    <iframe src="https://playsnake.org/" allowfullscreen></iframe>
+
+    <h2>Another Game</h2>
+    <iframe src="YOUR_GAME_LINK_HERE" allowfullscreen></iframe>
+
+</body>
+</html>
